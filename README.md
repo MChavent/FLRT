@@ -16,13 +16,16 @@ python python_matrix.py
 crossing angle figure 2-A
 -------------------------
 vmd -dispdev text -e crossing_angle_all.tcl
+
 python histo_cross_all.py
 
 
 crossing Vs distance angle figure 2-A
 -------------------------------------
 vmd -dispdev text -e distance_CA.tcl
+
 python plot_CAvsD.py   (averaged density)
+
 python plot_CAvsD_eachsim.py (single simulation data on top of the averaged data)
 
 
