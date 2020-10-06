@@ -32,19 +32,21 @@ python plot_CAvsD_eachsim.py (single simulation data on top of the averaged data
 TM contact 2-B
 --------------
 vmd -dispdev text -e protein_contact.tcl 
+
 python matrix_distance_TM_avg.py 
 
 
 Density 3-B
 -----------
 vmd -dispdev text -e get_density_TM.tcl
+
 python plot_density_all.py 
 
 
 display main representations as figures 2B and S12B
 ---------------------------------------------------
 open VMD
-   for CG:
-File -> Load Visualization state -> TM_main_struct_XXX.vmd
-   for AT:
-File -> Load Visualization state -> XXX_AT_end.vmd
+
+   for CG: File -> Load Visualization state -> TM_main_struct_XXX.vmd
+   
+   for AT: File -> Load Visualization state -> XXX_AT_end.vmd
