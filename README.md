@@ -43,7 +43,7 @@ python plot_density_all.py
 Starting coordinates for CG-FEP calculations
 ---------------------------------------------
 
-the starting coordinates of the systems for CG-FEP calculations are available in the Model/FEP folder
+the starting coordinates of the systems for CG-FEP calculations are available in the Models/FEP folder
 
 
 
