@@ -13,14 +13,14 @@ vmd -dispdev text -e calculate_distance.tcl
 python python_matrix.py
 
 
-crossing angle figure 2-A
+crossing angle figure 3-A
 -------------------------
 vmd -dispdev text -e crossing_angle_all.tcl
 
 python histo_cross_all.py
 
 
-crossing Vs distance angle figure 2-A
+crossing Vs distance angle figure 3-A
 -------------------------------------
 vmd -dispdev text -e distance_CA.tcl
 
@@ -29,22 +29,22 @@ python plot_CAvsD.py   (averaged density)
 python plot_CAvsD_eachsim.py (single simulation data on top of the averaged data)
 
 
-TM contact 2-B
+TM contact 3-B
 --------------
 vmd -dispdev text -e protein_contact.tcl 
 
 python matrix_distance_TM_avg.py 
 
 
-Density 3-B
+Density 4-B
 -----------
 vmd -dispdev text -e get_density_TM.tcl
 
 python plot_density_all.py 
 
 
-display main representations as figures 2B and S12B
----------------------------------------------------
+display main representations 
+----------------------------
 open VMD
 
    for CG: File -> Load Visualization state -> TM_main_struct_XXX.vmd
