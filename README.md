@@ -33,14 +33,18 @@ TM contact 3-B
 --------------
 vmd -dispdev text -e protein_contact.tcl 
 
-python matrix_distance_TM_avg.py 
-
 
 Density 4-B
 -----------
 vmd -dispdev text -e get_density_TM.tcl
 
 python plot_density_all.py 
+
+Starting coordinates for CG-FEP calculations
+---------------------------------------------
+
+the starting coordinates of the systems for CG-FEP calculations are available in the Model/FEP folder
+
 
 
 display main representations 
