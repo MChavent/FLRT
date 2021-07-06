@@ -43,11 +43,16 @@ python plot_density_all.py
 Note: this tcl script was also used to display lipid densities for the PM-like system (see Fig. 2-B)
 
 
+Most representative structures for TM dimer in PM membrane
+---------------------------------------------
+
+the coordinates of the main representative structures for RH1 and RH2 configurations in a PM membrane are available in the folder Models/PM
+
+
 Starting coordinates for CG-FEP calculations
 ---------------------------------------------
 
 the starting coordinates of the systems for CG-FEP calculations are available in the Models/FEP folder
-
 
 
 display main representations 
