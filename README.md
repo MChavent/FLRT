@@ -40,6 +40,9 @@ vmd -dispdev text -e get_density_TM.tcl
 
 python plot_density_all.py 
 
+Note: this tcl script was also used to display lipid densities for the PM-like system (see Fig. 2-B)
+
+
 Starting coordinates for CG-FEP calculations
 ---------------------------------------------
 
